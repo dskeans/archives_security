@@ -1,0 +1,24 @@
+[package]
+name = "ed25519-uniffi"
+version = "0.1.0"
+edition = "2021"
+description = "Ed25519 cryptographic operations with UniFFI bindings for Python and Swift"
+license = "MIT OR Apache-2.0"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+name = "ed25519_uniffi"
+
+[dependencies]
+# UniFFI dependencies
+uniffi = "0.29.4"
+
+# Cryptography dependencies
+ed25519-dalek = "2.2.0"
+rand = "0.8"
+
+# Utilities
+hex = "0.4"
+
+# Error handling
+thiserror = "1.0"

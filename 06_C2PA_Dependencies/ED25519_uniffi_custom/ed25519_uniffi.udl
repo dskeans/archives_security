@@ -1,0 +1,23 @@
+[Error]
+enum Ed25519Error {
+    "InvalidPrivateKey",
+    "InvalidPublicKey", 
+    "InvalidSignature",
+    "SigningFailed",
+    "VerificationFailed",
+};
+
+interface Ed25519KeyPair {
+    constructor(sequence<u8> public_key, sequence<u8> private_key);
+    sequence<u8> get_public_key();
+    sequence<u8> get_private_key();
+    string get_public_key_hex();
+    string get_private_key_hex();
+};
+
+namespace ed25519_uniffi {
+    Ed25519KeyPair generate_keypair();
+    [Throws=Ed25519Error] sequence<u8> sign_message(sequence<u8> message, sequence<u8> private_key);
+    [Throws=Ed25519Error] boolean verify_signature(sequence<u8> message, sequence<u8> signature, sequence<u8> public_key);
+    [Throws=Ed25519Error] Ed25519KeyPair keypair_from_private_key(sequence<u8> private_key);
+};

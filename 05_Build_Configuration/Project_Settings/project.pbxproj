@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1881F2D888A6E1C3BCF50FBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE884882FE464B35B026778D /* ContentView.swift */; };
+		2F52925EBFD5F5D9AD4BFC25 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9D127110DCE7E40CDE76C57C /* project.yml */; };
+		522C25CB2E42F1C40043F403 /* DebugHarness_Integration_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C25C82E42F1C40043F403 /* DebugHarness_Integration_Example.swift */; };
+		522C25CC2E42F1C40043F403 /* DebugHarness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C25C72E42F1C40043F403 /* DebugHarness.swift */; };
+		522C25CD2E42F1C40043F403 /* DebugHarness_README.md in Resources */ = {isa = PBXBuildFile; fileRef = 522C25C92E42F1C40043F403 /* DebugHarness_README.md */; };
+		522C25CE2E42F1C40043F403 /* scraper_debug.log in Resources */ = {isa = PBXBuildFile; fileRef = 522C25CA2E42F1C40043F403 /* scraper_debug.log */; };
+		5262AFE42E3FE50C007C462D /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262AFE32E3FE507007C462D /* CameraManager.swift */; };
+		5262B0B22E40CE9A007C462D /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0AF2E40CE9A007C462D /* KeyManager.swift */; };
+		5262B0B32E40CE9A007C462D /* VerifierTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0B12E40CE9A007C462D /* VerifierTools.swift */; };
+		5262B0B42E40CE9A007C462D /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0A92E40CE9A007C462D /* AppSettings.swift */; };
+		5262B0B52E40CE9A007C462D /* ManifestVerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0B02E40CE9A007C462D /* ManifestVerificationService.swift */; };
+		5262B0B72E40CE9A007C462D /* ExportTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0AE2E40CE9A007C462D /* ExportTools.swift */; };
+		5262B0B82E40CE9A007C462D /* Ed25519Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0AD2E40CE9A007C462D /* Ed25519Service.swift */; };
+		5262B0C12E40CEE5007C462D /* TokenDataViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0BF2E40CEE5007C462D /* TokenDataViewer.swift */; };
+		5262B0C22E40CEE5007C462D /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0BA2E40CEE5007C462D /* ExportView.swift */; };
+		5262B0C32E40CEE5007C462D /* HelpOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0BB2E40CEE5007C462D /* HelpOverlayView.swift */; };
+		5262B0C42E40CEE5007C462D /* TrustDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0C02E40CEE5007C462D /* TrustDashboard.swift */; };
+		5262B0C52E40CEE5007C462D /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0B92E40CEE5007C462D /* DiagnosticsView.swift */; };
+		5262B0C62E40CEE5007C462D /* KeySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0BC2E40CEE5007C462D /* KeySettingsView.swift */; };
+		5262B0C72E40CEE5007C462D /* ManifestTokenViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0BD2E40CEE5007C462D /* ManifestTokenViewer.swift */; };
+		5262B0C82E40CEE5007C462D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0BE2E40CEE5007C462D /* SettingsView.swift */; };
+		5262B0D12E40D029007C462D /* DiagnosticsView+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0CE2E40D029007C462D /* DiagnosticsView+Functions.swift */; };
+		5262B0D22E40D029007C462D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0CD2E40D029007C462D /* CameraView.swift */; };
+		5262B0D32E40D029007C462D /* RecordingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0CF2E40D029007C462D /* RecordingListView.swift */; };
+		5262B0D52E40D029007C462D /* CameraRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0CC2E40D029007C462D /* CameraRecordingView.swift */; };
+		5262B0D62E40D029007C462D /* C2PAStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0CB2E40D029007C462D /* C2PAStatusView.swift */; };
+		5262B0DA2E40D230007C462D /* FilesMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0D92E40D230007C462D /* FilesMenuView.swift */; };
+		5262B0DC2E40D25B007C462D /* MediaStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0DB2E40D25B007C462D /* MediaStorageManager.swift */; };
+		5262B0DE2E40D271007C462D /* TokenizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0DD2E40D271007C462D /* TokenizationService.swift */; };
+		5262B0E82E40D2B4007C462D /* UniFFISupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0E72E40D2B4007C462D /* UniFFISupport.swift */; };
+		5262B0EB2E40D2B4007C462D /* C2PAModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0E22E40D2B4007C462D /* C2PAModels.swift */; };
+		5262B0EC2E40D2B4007C462D /* FilesMenuModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0E42E40D2B4007C462D /* FilesMenuModels.swift */; };
+		5262B0ED2E40D2B4007C462D /* RecordingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0E62E40D2B4007C462D /* RecordingManager.swift */; };
+		5262B0EE2E40D2B4007C462D /* MediaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0E52E40D2B4007C462D /* MediaModels.swift */; };
+		5262B0EF2E40D2B4007C462D /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0DF2E40D2B4007C462D /* AppConfiguration.swift */; };
+		5262B0F02E40D2B4007C462D /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0E32E40D2B4007C462D /* CameraModel.swift */; };
+		3032BE542E40D2B4007C462D /* CameraSelfTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1E79FD2E40D2B4007C462D /* CameraSelfTimer.swift */; };
+		5262B0F42E40D424007C462D /* C2PAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0F32E40D424007C462D /* C2PAService.swift */; };
+		5262B0F62E40D530007C462D /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0F52E40D530007C462D /* InfoRow.swift */; };
+		5262B0F82E40D556007C462D /* EditAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262B0F72E40D556007C462D /* EditAlbumView.swift */; };
+		52868DCF2E415D37007BB2C2 /* arcHIVE_Camera_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9462E08083971349C96E2EB /* arcHIVE_Camera_App.swift */; };
+		52A1C2F42E46A00100ABCDEF /* TradingCardVerifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1C2F32E46A00100ABCDEF /* TradingCardVerifierView.swift */; };
+		52AAA0012E45AAAA007C462D /* MintQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAA0002E45AAAA007C462D /* MintQueueManager.swift */; };
+		52ABCDEF2E50000000CAFEBE /* MetadataSanitizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABCDEE2E50000000CAFEBE /* MetadataSanitizer.swift */; };
+		52C2EFF12E4557B700630A4D /* archive_c2pa_cli_ffi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2EFEE2E4557B700630A4D /* archive_c2pa_cli_ffi.swift */; };
+		52C2EFF32E455F4A00630A4D /* fix_ffi_symbols.sh in Resources */ = {isa = PBXBuildFile; fileRef = 52C2EFF22E455F4A00630A4D /* fix_ffi_symbols.sh */; };
+		52DF0E972E40D8410036B8F2 /* ArchiveC2PA.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66ECC5BF622A13D732A26A85 /* ArchiveC2PA.xcframework */; };
+		52DF0E9F2E41264D0036B8F2 /* MediaDiagnosticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF0E9E2E41264D0036B8F2 /* MediaDiagnosticView.swift */; };
+		5815F59AC64441AC47D4C40CD66691 /* DebugHarness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3657BB8E717D4780BE10998975C99B1F /* DebugHarness.swift */; };
+		60045E7B1BC8BDB14B9C6845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3ADF30D4E03232359908CE /* Assets.xcassets */; };
+		78CA96F6A9052EC537566927 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7909A592EBF9443653A6FF45 /* CameraPreview.swift */; };
+		AB2000012E50AAAA00000001 /* SanitizeTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000001 /* SanitizeTopicView.swift */; };
+		AB2000012E50AAAA00000002 /* GPSTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000002 /* GPSTopicView.swift */; };
+		AB2000012E50AAAA00000003 /* C2PATopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000003 /* C2PATopicView.swift */; };
+		AB2000012E50AAAA00000004 /* IPFSTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000004 /* IPFSTopicView.swift */; };
+		AB2000012E50AAAA00000005 /* EncryptTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000005 /* EncryptTopicView.swift */; };
+		AB2000012E50AAAA00000006 /* PrivacyHelpSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000006 /* PrivacyHelpSheet.swift */; };
+		AB2000012E50AAAA00000007 /* WalletConnectTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000007 /* WalletConnectTopicView.swift */; };
+		AB2000012E50AAAA00000008 /* MintQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000008 /* MintQueueView.swift */; };
+		AB2000012E50AAAA00000009 /* MintHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000009 /* MintHistoryView.swift */; };
+		AB2000012E50AAAA00000010 /* FileVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000010 /* FileVerificationView.swift */; };
+		AB2000012E50AAAA00000011 /* URLVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000011 /* URLVerificationView.swift */; };
+		AB2000012E50AAAA00000012 /* QRVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000012 /* QRVerificationView.swift */; };
+		AB2000012E50AAAA00000013 /* VerificationHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000013 /* VerificationHistoryView.swift */; };
+		AB2000012E50AAAA00000014 /* TrustLevelGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000014 /* TrustLevelGuideView.swift */; };
+		AB2000012E50AAAA00000015 /* AllMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000015 /* AllMediaView.swift */; };
+		AB2000012E50AAAA00000016 /* AlbumManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000016 /* AlbumManagementView.swift */; };
+		AB2000012E50AAAA00000017 /* WalletAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000017 /* WalletAddressView.swift */; };
+		AB2000012E50AAAA00000018 /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000018 /* TransactionHistoryView.swift */; };
+		AB2000012E50AAAA00000019 /* C2PAFAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000019 /* C2PAFAQView.swift */; };
+		AB2000012E50AAAA00000020 /* CaptureModeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000020 /* CaptureModeSelectorView.swift */; };
+		AB2000012E50AAAA00000021 /* FormatQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000021 /* FormatQualityView.swift */; };
+		AB2000012E50AAAA00000022 /* AudioControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000022 /* AudioControlsView.swift */; };
+		AB2000012E50AAAA00000023 /* OverlaysGuidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000023 /* OverlaysGuidesView.swift */; };
+		AB2000012E50AAAA00000024 /* QuickToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000024 /* QuickToolsView.swift */; };
+		AB2000012E50AAAA00000025 /* WalletConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000012E50AAAA00000025 /* WalletConnectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528683A42E42369D00980F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F993A2BAADA47BE5E4E646C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426F177B833B6CEFBB95E4DC;
+			remoteInfo = arcHIVE_Camera_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		199813B8608F4FFD166C8D82 /* CameraMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraMenuView.swift; sourceTree = "<group>"; };
+		23B3623BB01503793A986F4D /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		32E588839EC81333B048A335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		33E90F7343CBBFD86C07915A /* arcHIVE_Camera_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arcHIVE_Camera_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3657BB8E717D4780BE10998975C99B1F /* DebugHarness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugHarness.swift; sourceTree = "<group>"; };
+		4EB8207DECCC28BC35623ABD /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		522C25C72E42F1C40043F403 /* DebugHarness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugHarness.swift; sourceTree = "<group>"; };
+		522C25C82E42F1C40043F403 /* DebugHarness_Integration_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugHarness_Integration_Example.swift; sourceTree = "<group>"; };
+		522C25C92E42F1C40043F403 /* DebugHarness_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DebugHarness_README.md; sourceTree = "<group>"; };
+		522C25CA2E42F1C40043F403 /* scraper_debug.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = scraper_debug.log; sourceTree = "<group>"; };
+		5262AFE32E3FE507007C462D /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		5262B0A92E40CE9A007C462D /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		5262B0AD2E40CE9A007C462D /* Ed25519Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ed25519Service.swift; sourceTree = "<group>"; };
+		5262B0AE2E40CE9A007C462D /* ExportTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportTools.swift; sourceTree = "<group>"; };
+		5262B0AF2E40CE9A007C462D /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
+		5262B0B02E40CE9A007C462D /* ManifestVerificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestVerificationService.swift; sourceTree = "<group>"; };
+		5262B0B12E40CE9A007C462D /* VerifierTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifierTools.swift; sourceTree = "<group>"; };
+		5262B0B92E40CEE5007C462D /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		5262B0BA2E40CEE5007C462D /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		5262B0BB2E40CEE5007C462D /* HelpOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpOverlayView.swift; sourceTree = "<group>"; };
+		5262B0BC2E40CEE5007C462D /* KeySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySettingsView.swift; sourceTree = "<group>"; };
+		5262B0BD2E40CEE5007C462D /* ManifestTokenViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestTokenViewer.swift; sourceTree = "<group>"; };
+		5262B0BE2E40CEE5007C462D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5262B0BF2E40CEE5007C462D /* TokenDataViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDataViewer.swift; sourceTree = "<group>"; };
+		5262B0C02E40CEE5007C462D /* TrustDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustDashboard.swift; sourceTree = "<group>"; };
+		5262B0CB2E40D029007C462D /* C2PAStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2PAStatusView.swift; sourceTree = "<group>"; };
+		5262B0CC2E40D029007C462D /* CameraRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRecordingView.swift; sourceTree = "<group>"; };
+		5262B0CD2E40D029007C462D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5262B0CE2E40D029007C462D /* DiagnosticsView+Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiagnosticsView+Functions.swift"; sourceTree = "<group>"; };
+		5262B0CF2E40D029007C462D /* RecordingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListView.swift; sourceTree = "<group>"; };
+		5262B0D92E40D230007C462D /* FilesMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesMenuView.swift; sourceTree = "<group>"; };
+		5262B0DB2E40D25B007C462D /* MediaStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaStorageManager.swift; sourceTree = "<group>"; };
+		5262B0DD2E40D271007C462D /* TokenizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenizationService.swift; sourceTree = "<group>"; };
+		5262B0DF2E40D2B4007C462D /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		5262B0E22E40D2B4007C462D /* C2PAModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2PAModels.swift; sourceTree = "<group>"; };
+		5262B0E32E40D2B4007C462D /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		6D1E79FD2E40D2B4007C462D /* CameraSelfTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSelfTimer.swift; sourceTree = "<group>"; };
+		5262B0E42E40D2B4007C462D /* FilesMenuModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesMenuModels.swift; sourceTree = "<group>"; };
+		5262B0E52E40D2B4007C462D /* MediaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModels.swift; sourceTree = "<group>"; };
+		5262B0E62E40D2B4007C462D /* RecordingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingManager.swift; sourceTree = "<group>"; };
+		5262B0E72E40D2B4007C462D /* UniFFISupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniFFISupport.swift; sourceTree = "<group>"; };
+		5262B0F32E40D424007C462D /* C2PAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2PAService.swift; sourceTree = "<group>"; };
+		5262B0F52E40D530007C462D /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
+		5262B0F72E40D556007C462D /* EditAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlbumView.swift; sourceTree = "<group>"; };
+		528683992E42367F00980F0E /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = TestPlan.xctestplan; path = /Users/midnight/Documents/TestPlan.xctestplan; sourceTree = "<absolute>"; };
+		5286839E2E42369D00980F0E /* arcHIVE_Camera_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arcHIVE_Camera_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A1C2F32E46A00100ABCDEF /* TradingCardVerifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardVerifierView.swift; sourceTree = "<group>"; };
+		52AAA0002E45AAAA007C462D /* MintQueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintQueueManager.swift; sourceTree = "<group>"; };
+		52ABCD012E5000FACEFEED01 /* TradingCardInline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardInline.swift; sourceTree = "<group>"; };
+		52ABCDEE2E50000000CAFEBE /* MetadataSanitizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataSanitizer.swift; sourceTree = "<group>"; };
+		52C2EFEE2E4557B700630A4D /* archive_c2pa_cli_ffi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = archive_c2pa_cli_ffi.swift; path = /Users/midnight/Documents/FFI/archive_c2pa_cli_ffi.swift; sourceTree = "<absolute>"; };
+		52C2EFEF2E4557B700630A4D /* archive_c2pa_cli_ffiFFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = archive_c2pa_cli_ffiFFI.h; path = /Users/midnight/Documents/FFI/archive_c2pa_cli_ffiFFI.h; sourceTree = "<absolute>"; };
+		52C2EFF02E4557B700630A4D /* archive_c2pa_cli_ffiFFI.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = archive_c2pa_cli_ffiFFI.modulemap; path = /Users/midnight/Documents/FFI/archive_c2pa_cli_ffiFFI.modulemap; sourceTree = "<absolute>"; };
+		52C2EFF22E455F4A00630A4D /* fix_ffi_symbols.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = fix_ffi_symbols.sh; sourceTree = "<group>"; };
+		52DF0E992E40DAFB0036B8F2 /* libed25519_uniffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libed25519_uniffi.a; path = ED25519_uniffi_custom/target/release/libed25519_uniffi.a; sourceTree = "<group>"; };
+		52DF0E9B2E40DC670036B8F2 /* arcHIVE_Camera_App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arcHIVE_Camera_App-Bridging-Header.h"; sourceTree = "<group>"; };
+		52DF0E9C2E40DC9C0036B8F2 /* ed25519_uniffiFFI 2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ed25519_uniffiFFI 2.h"; sourceTree = "<group>"; };
+		52DF0E9D2E40DC9C0036B8F2 /* ed25519_uniffiFFI 2.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "ed25519_uniffiFFI 2.modulemap"; sourceTree = "<group>"; };
+		52DF0E9E2E41264D0036B8F2 /* MediaDiagnosticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDiagnosticView.swift; sourceTree = "<group>"; };
+		5D3ADF30D4E03232359908CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633F1B913E39B9A766D7AE2B /* MenuOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOverlayView.swift; sourceTree = "<group>"; };
+		66ECC5BF622A13D732A26A85 /* ArchiveC2PA.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ArchiveC2PA.xcframework; sourceTree = "<group>"; };
+		7909A592EBF9443653A6FF45 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		83796B7456B5393CB39B8EEA /* arcHIVE_Camera_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = arcHIVE_Camera_App.entitlements; sourceTree = "<group>"; };
+		962FFDE3DB08E11751FF439D /* SplashPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPreviewApp.swift; sourceTree = "<group>"; };
+		9D127110DCE7E40CDE76C57C /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000001 /* SanitizeTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanitizeTopicView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000002 /* GPSTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSTopicView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000003 /* C2PATopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2PATopicView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000004 /* IPFSTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPFSTopicView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000005 /* EncryptTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptTopicView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000006 /* PrivacyHelpSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyHelpSheet.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000007 /* WalletConnectTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletConnectTopicView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000008 /* MintQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintQueueView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000009 /* MintHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintHistoryView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000010 /* FileVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileVerificationView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000011 /* URLVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLVerificationView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000012 /* QRVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRVerificationView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000013 /* VerificationHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationHistoryView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000014 /* TrustLevelGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustLevelGuideView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000015 /* AllMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMediaView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000016 /* AlbumManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumManagementView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000017 /* WalletAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAddressView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000018 /* TransactionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000019 /* C2PAFAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C2PAFAQView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000020 /* CaptureModeSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureModeSelectorView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000021 /* FormatQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatQualityView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000022 /* AudioControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioControlsView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000023 /* OverlaysGuidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaysGuidesView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000024 /* QuickToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickToolsView.swift; sourceTree = "<group>"; };
+		AB0000012E50AAAA00000025 /* WalletConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletConnectionView.swift; sourceTree = "<group>"; };
+		D01B997371261E1111C3E537 /* AppLaunchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunchCoordinator.swift; sourceTree = "<group>"; };
+		F9462E08083971349C96E2EB /* arcHIVE_Camera_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcHIVE_Camera_App.swift; sourceTree = "<group>"; };
+		FE884882FE464B35B026778D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5286839F2E42369D00980F0E /* arcHIVE_Camera_AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = arcHIVE_Camera_AppUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5286839B2E42369D00980F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DF0E952E40D7F70036B8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DF0E972E40D8410036B8F2 /* ArchiveC2PA.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DD3BC1325314A7B6BC550BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E90F7343CBBFD86C07915A /* arcHIVE_Camera_App.app */,
+				5286839E2E42369D00980F0E /* arcHIVE_Camera_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AFEEEA43EEC7E1D44B86D2 = {
+			isa = PBXGroup;
+			children = (
+				52C2EFF22E455F4A00630A4D /* fix_ffi_symbols.sh */,
+				527BB0082E442DA20060DB12 /* FFI */,
+				3657BB8E717D4780BE10998975C99B1F /* DebugHarness.swift */,
+				522C25C82E42F1C40043F403 /* DebugHarness_Integration_Example.swift */,
+				522C25C92E42F1C40043F403 /* DebugHarness_README.md */,
+				522C25CA2E42F1C40043F403 /* scraper_debug.log */,
+				528683992E42367F00980F0E /* TestPlan.xctestplan */,
+				52DF0E9B2E40DC670036B8F2 /* arcHIVE_Camera_App-Bridging-Header.h */,
+				F003E700211E28F187FEEE06 /* arcHIVE_Camera_App_Fresh */,
+				3B7E7BCEEBF5EE92E3AAA6F4 /* Models */,
+				C0E11BCE66FE0D55758E0C94 /* Services */,
+				E2935074EE5274F393AD7131 /* Views */,
+				5286839F2E42369D00980F0E /* arcHIVE_Camera_AppUITests */,
+				1DD3BC1325314A7B6BC550BA /* Products */,
+				52DF0E962E40D8410036B8F2 /* Frameworks */,
+				527BB0002E442D7D0060DB12 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7E7BCEEBF5EE92E3AAA6F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5262B0DF2E40D2B4007C462D /* AppConfiguration.swift */,
+				5262B0E22E40D2B4007C462D /* C2PAModels.swift */,
+				5262B0E32E40D2B4007C462D /* CameraModel.swift */,
+				5262B0E42E40D2B4007C462D /* FilesMenuModels.swift */,
+				5262B0E52E40D2B4007C462D /* MediaModels.swift */,
+				5262B0E62E40D2B4007C462D /* RecordingManager.swift */,
+				5262B0E72E40D2B4007C462D /* UniFFISupport.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5262AFE22E3FE4DC007C462D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5262AFE32E3FE507007C462D /* CameraManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		527BB0002E442D7D0060DB12 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				522C25C72E42F1C40043F403 /* DebugHarness.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		527BB0082E442DA20060DB12 /* FFI */ = {
+			isa = PBXGroup;
+			children = (
+				52C2EFEE2E4557B700630A4D /* archive_c2pa_cli_ffi.swift */,
+				52C2EFEF2E4557B700630A4D /* archive_c2pa_cli_ffiFFI.h */,
+				52C2EFF02E4557B700630A4D /* archive_c2pa_cli_ffiFFI.modulemap */,
+			);
+			path = FFI;
+			sourceTree = "<group>";
+		};
+		52DF0E962E40D8410036B8F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DF0E992E40DAFB0036B8F2 /* libed25519_uniffi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0E11BCE66FE0D55758E0C94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52DF0E9C2E40DC9C0036B8F2 /* ed25519_uniffiFFI 2.h */,
+				52DF0E9D2E40DC9C0036B8F2 /* ed25519_uniffiFFI 2.modulemap */,
+				5262B0F32E40D424007C462D /* C2PAService.swift */,
+				6D1E79FD2E40D2B4007C462D /* CameraSelfTimer.swift */,
+				5262B0A92E40CE9A007C462D /* AppSettings.swift */,
+				5262B0DB2E40D25B007C462D /* MediaStorageManager.swift */,
+				5262B0AD2E40CE9A007C462D /* Ed25519Service.swift */,
+				5262B0AE2E40CE9A007C462D /* ExportTools.swift */,
+				5262B0DD2E40D271007C462D /* TokenizationService.swift */,
+				52AAA0002E45AAAA007C462D /* MintQueueManager.swift */,
+				5262B0AF2E40CE9A007C462D /* KeyManager.swift */,
+				52ABCDEE2E50000000CAFEBE /* MetadataSanitizer.swift */,
+				5262B0B02E40CE9A007C462D /* ManifestVerificationService.swift */,
+				5262B0B12E40CE9A007C462D /* VerifierTools.swift */,
+				23B3623BB01503793A986F4D /* KeychainService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E2935074EE5274F393AD7131 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5262B0F72E40D556007C462D /* EditAlbumView.swift */,
+				5262B0F52E40D530007C462D /* InfoRow.swift */,
+				5262B0CB2E40D029007C462D /* C2PAStatusView.swift */,
+				AB0000012E50AAAA00000001 /* SanitizeTopicView.swift */,
+				AB0000012E50AAAA00000002 /* GPSTopicView.swift */,
+				AB0000012E50AAAA00000003 /* C2PATopicView.swift */,
+				AB0000012E50AAAA00000004 /* IPFSTopicView.swift */,
+				AB0000012E50AAAA00000005 /* EncryptTopicView.swift */,
+				AB0000012E50AAAA00000006 /* PrivacyHelpSheet.swift */,
+				AB0000012E50AAAA00000007 /* WalletConnectTopicView.swift */,
+				AB0000012E50AAAA00000008 /* MintQueueView.swift */,
+				AB0000012E50AAAA00000009 /* MintHistoryView.swift */,
+				AB0000012E50AAAA00000010 /* FileVerificationView.swift */,
+				AB0000012E50AAAA00000011 /* URLVerificationView.swift */,
+				AB0000012E50AAAA00000012 /* QRVerificationView.swift */,
+				AB0000012E50AAAA00000013 /* VerificationHistoryView.swift */,
+				AB0000012E50AAAA00000014 /* TrustLevelGuideView.swift */,
+				AB0000012E50AAAA00000015 /* AllMediaView.swift */,
+				AB0000012E50AAAA00000016 /* AlbumManagementView.swift */,
+				AB0000012E50AAAA00000017 /* WalletAddressView.swift */,
+				AB0000012E50AAAA00000018 /* TransactionHistoryView.swift */,
+				AB0000012E50AAAA00000019 /* C2PAFAQView.swift */,
+				AB0000012E50AAAA00000020 /* CaptureModeSelectorView.swift */,
+				AB0000012E50AAAA00000021 /* FormatQualityView.swift */,
+				AB0000012E50AAAA00000022 /* AudioControlsView.swift */,
+				AB0000012E50AAAA00000023 /* OverlaysGuidesView.swift */,
+				AB0000012E50AAAA00000024 /* QuickToolsView.swift */,
+				AB0000012E50AAAA00000025 /* WalletConnectionView.swift */,
+				5262B0CC2E40D029007C462D /* CameraRecordingView.swift */,
+				5262B0CD2E40D029007C462D /* CameraView.swift */,
+				5262B0CE2E40D029007C462D /* DiagnosticsView+Functions.swift */,
+				5262B0CF2E40D029007C462D /* RecordingListView.swift */,
+				5262B0B92E40CEE5007C462D /* DiagnosticsView.swift */,
+				5262B0BA2E40CEE5007C462D /* ExportView.swift */,
+				5262B0BB2E40CEE5007C462D /* HelpOverlayView.swift */,
+				5262B0BC2E40CEE5007C462D /* KeySettingsView.swift */,
+				5262B0BD2E40CEE5007C462D /* ManifestTokenViewer.swift */,
+				5262B0BE2E40CEE5007C462D /* SettingsView.swift */,
+				5262B0BF2E40CEE5007C462D /* TokenDataViewer.swift */,
+				5262B0C02E40CEE5007C462D /* TrustDashboard.swift */,
+				52ABCD012E5000FACEFEED01 /* TradingCardInline.swift */,
+				52A1C2F32E46A00100ABCDEF /* TradingCardVerifierView.swift */,
+				D01B997371261E1111C3E537 /* AppLaunchCoordinator.swift */,
+				199813B8608F4FFD166C8D82 /* CameraMenuView.swift */,
+				7909A592EBF9443653A6FF45 /* CameraPreview.swift */,
+				FE884882FE464B35B026778D /* ContentView.swift */,
+				5262B0D92E40D230007C462D /* FilesMenuView.swift */,
+				4EB8207DECCC28BC35623ABD /* LaunchScreenView.swift */,
+				633F1B913E39B9A766D7AE2B /* MenuOverlayView.swift */,
+				962FFDE3DB08E11751FF439D /* SplashPreviewApp.swift */,
+				52DF0E9E2E41264D0036B8F2 /* MediaDiagnosticView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F003E700211E28F187FEEE06 /* arcHIVE_Camera_App_Fresh */ = {
+			isa = PBXGroup;
+			children = (
+				83796B7456B5393CB39B8EEA /* arcHIVE_Camera_App.entitlements */,
+				F9462E08083971349C96E2EB /* arcHIVE_Camera_App.swift */,
+				66ECC5BF622A13D732A26A85 /* ArchiveC2PA.xcframework */,
+				5D3ADF30D4E03232359908CE /* Assets.xcassets */,
+				32E588839EC81333B048A335 /* Info.plist */,
+				5262AFE22E3FE4DC007C462D /* Managers */,
+				9D127110DCE7E40CDE76C57C /* project.yml */,
+			);
+			name = arcHIVE_Camera_App_Fresh;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426F177B833B6CEFBB95E4DC /* arcHIVE_Camera_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46566CB7D85EE1FB3451956 /* Build configuration list for PBXNativeTarget "arcHIVE_Camera_App" */;
+			buildPhases = (
+				81ABBD08241D9D7D6231B183 /* Sources */,
+				F586B8EDBCDFFC857F6036B2 /* Resources */,
+				52DF0E952E40D7F70036B8F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arcHIVE_Camera_App;
+			packageProductDependencies = (
+			);
+			productName = arcHIVE_Camera_App;
+			productReference = 33E90F7343CBBFD86C07915A /* arcHIVE_Camera_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5286839D2E42369D00980F0E /* arcHIVE_Camera_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528683A62E42369D00980F0E /* Build configuration list for PBXNativeTarget "arcHIVE_Camera_AppUITests" */;
+			buildPhases = (
+				5286839A2E42369D00980F0E /* Sources */,
+				5286839B2E42369D00980F0E /* Frameworks */,
+				5286839C2E42369D00980F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528683A52E42369D00980F0E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5286839F2E42369D00980F0E /* arcHIVE_Camera_AppUITests */,
+			);
+			name = arcHIVE_Camera_AppUITests;
+			packageProductDependencies = (
+			);
+			productName = arcHIVE_Camera_AppUITests;
+			productReference = 5286839E2E42369D00980F0E /* arcHIVE_Camera_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F993A2BAADA47BE5E4E646C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5286839D2E42369D00980F0E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 426F177B833B6CEFBB95E4DC;
+					};
+				};
+			};
+			buildConfigurationList = 06F1FDA05FE105A9EC695E39 /* Build configuration list for PBXProject "arcHIVE_Camera_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 22AFEEEA43EEC7E1D44B86D2;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426F177B833B6CEFBB95E4DC /* arcHIVE_Camera_App */,
+				5286839D2E42369D00980F0E /* arcHIVE_Camera_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5286839C2E42369D00980F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522C25CD2E42F1C40043F403 /* DebugHarness_README.md in Resources */,
+				522C25CE2E42F1C40043F403 /* scraper_debug.log in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F586B8EDBCDFFC857F6036B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60045E7B1BC8BDB14B9C6845 /* Assets.xcassets in Resources */,
+				2F52925EBFD5F5D9AD4BFC25 /* project.yml in Resources */,
+				52C2EFF32E455F4A00630A4D /* fix_ffi_symbols.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5286839A2E42369D00980F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522C25CB2E42F1C40043F403 /* DebugHarness_Integration_Example.swift in Sources */,
+				522C25CC2E42F1C40043F403 /* DebugHarness.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ABBD08241D9D7D6231B183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A1C2F42E46A00100ABCDEF /* TradingCardVerifierView.swift in Sources */,
+				5262B0C12E40CEE5007C462D /* TokenDataViewer.swift in Sources */,
+				5262B0DE2E40D271007C462D /* TokenizationService.swift in Sources */,
+				5262B0C22E40CEE5007C462D /* ExportView.swift in Sources */,
+				5262B0C32E40CEE5007C462D /* HelpOverlayView.swift in Sources */,
+				5262B0D12E40D029007C462D /* DiagnosticsView+Functions.swift in Sources */,
+				5262B0D22E40D029007C462D /* CameraView.swift in Sources */,
+				5262B0D32E40D029007C462D /* RecordingListView.swift in Sources */,
+				5262B0D52E40D029007C462D /* CameraRecordingView.swift in Sources */,
+				52AAA0012E45AAAA007C462D /* MintQueueManager.swift in Sources */,
+				5262B0D62E40D029007C462D /* C2PAStatusView.swift in Sources */,
+				5815F59AC64441AC47D4C40CD66691 /* DebugHarness.swift in Sources */,
+				5262B0C42E40CEE5007C462D /* TrustDashboard.swift in Sources */,
+				5262B0F62E40D530007C462D /* InfoRow.swift in Sources */,
+				5262B0C52E40CEE5007C462D /* DiagnosticsView.swift in Sources */,
+				5262B0F82E40D556007C462D /* EditAlbumView.swift in Sources */,
+				5262B0DC2E40D25B007C462D /* MediaStorageManager.swift in Sources */,
+				5262B0C62E40CEE5007C462D /* KeySettingsView.swift in Sources */,
+				5262B0C72E40CEE5007C462D /* ManifestTokenViewer.swift in Sources */,
+				5262B0C82E40CEE5007C462D /* SettingsView.swift in Sources */,
+				5262AFE42E3FE50C007C462D /* CameraManager.swift in Sources */,
+				AB2000012E50AAAA00000001 /* SanitizeTopicView.swift in Sources */,
+				AB2000012E50AAAA00000002 /* GPSTopicView.swift in Sources */,
+				AB2000012E50AAAA00000003 /* C2PATopicView.swift in Sources */,
+				AB2000012E50AAAA00000004 /* IPFSTopicView.swift in Sources */,
+				AB2000012E50AAAA00000005 /* EncryptTopicView.swift in Sources */,
+				AB2000012E50AAAA00000006 /* PrivacyHelpSheet.swift in Sources */,
+				AB2000012E50AAAA00000007 /* WalletConnectTopicView.swift in Sources */,
+				AB2000012E50AAAA00000008 /* MintQueueView.swift in Sources */,
+				AB2000012E50AAAA00000009 /* MintHistoryView.swift in Sources */,
+				AB2000012E50AAAA00000010 /* FileVerificationView.swift in Sources */,
+				AB2000012E50AAAA00000011 /* URLVerificationView.swift in Sources */,
+				AB2000012E50AAAA00000012 /* QRVerificationView.swift in Sources */,
+				AB2000012E50AAAA00000013 /* VerificationHistoryView.swift in Sources */,
+				AB2000012E50AAAA00000014 /* TrustLevelGuideView.swift in Sources */,
+				AB2000012E50AAAA00000015 /* AllMediaView.swift in Sources */,
+				AB2000012E50AAAA00000016 /* AlbumManagementView.swift in Sources */,
+				AB2000012E50AAAA00000017 /* WalletAddressView.swift in Sources */,
+				AB2000012E50AAAA00000018 /* TransactionHistoryView.swift in Sources */,
+				AB2000012E50AAAA00000019 /* C2PAFAQView.swift in Sources */,
+				AB2000012E50AAAA00000020 /* CaptureModeSelectorView.swift in Sources */,
+				AB2000012E50AAAA00000021 /* FormatQualityView.swift in Sources */,
+				AB2000012E50AAAA00000022 /* AudioControlsView.swift in Sources */,
+				AB2000012E50AAAA00000023 /* OverlaysGuidesView.swift in Sources */,
+				AB2000012E50AAAA00000024 /* QuickToolsView.swift in Sources */,
+				AB2000012E50AAAA00000025 /* WalletConnectionView.swift in Sources */,
+				5262B0E82E40D2B4007C462D /* UniFFISupport.swift in Sources */,
+				5262B0EB2E40D2B4007C462D /* C2PAModels.swift in Sources */,
+				5262B0EC2E40D2B4007C462D /* FilesMenuModels.swift in Sources */,
+				5262B0ED2E40D2B4007C462D /* RecordingManager.swift in Sources */,
+				5262B0EE2E40D2B4007C462D /* MediaModels.swift in Sources */,
+				5262B0EF2E40D2B4007C462D /* AppConfiguration.swift in Sources */,
+				5262B0F02E40D2B4007C462D /* CameraModel.swift in Sources */,
+				3032BE542E40D2B4007C462D /* CameraSelfTimer.swift in Sources */,
+				5262B0B22E40CE9A007C462D /* KeyManager.swift in Sources */,
+				5262B0B32E40CE9A007C462D /* VerifierTools.swift in Sources */,
+				5262B0B42E40CE9A007C462D /* AppSettings.swift in Sources */,
+				5262B0F42E40D424007C462D /* C2PAService.swift in Sources */,
+				52C2EFF12E4557B700630A4D /* archive_c2pa_cli_ffi.swift in Sources */,
+				5262B0B52E40CE9A007C462D /* ManifestVerificationService.swift in Sources */,
+				5262B0B72E40CE9A007C462D /* ExportTools.swift in Sources */,
+				52ABCDEF2E50000000CAFEBE /* MetadataSanitizer.swift in Sources */,
+				5262B0DA2E40D230007C462D /* FilesMenuView.swift in Sources */,
+				5262B0B82E40CE9A007C462D /* Ed25519Service.swift in Sources */,
+				52DF0E9F2E41264D0036B8F2 /* MediaDiagnosticView.swift in Sources */,
+				52868DCF2E415D37007BB2C2 /* arcHIVE_Camera_App.swift in Sources */,
+				78CA96F6A9052EC537566927 /* CameraPreview.swift in Sources */,
+				1881F2D888A6E1C3BCF50FBF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528683A52E42369D00980F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426F177B833B6CEFBB95E4DC /* arcHIVE_Camera_App */;
+			targetProxy = 528683A42E42369D00980F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		528683A72E42369D00980F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhskeans.arcHIVECameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = arcHIVE_Camera_App;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		528683A82E42369D00980F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhskeans.arcHIVECameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = arcHIVE_Camera_App;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		622E52AC3A77D80B1E48DE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BD83EAD4F00F08F0A9B46718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDE4B42D63C9AD3399590C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = NB82QGB32K;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/arcHIVE_Camera_App/ArchiveC2PA.xcframework/ios-arm64/Headers",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = arcHIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ED25519_uniffi_custom/target/release",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.midnight.archivecamera;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "arcHIVE_Camera_App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FF3FE34D7A930523527D53DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = NB82QGB32K;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/arcHIVE_Camera_App/ArchiveC2PA.xcframework/ios-arm64/Headers",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = arcHIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ED25519_uniffi_custom/target/release",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.midnight.archivecamera;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "arcHIVE_Camera_App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F1FDA05FE105A9EC695E39 /* Build configuration list for PBXProject "arcHIVE_Camera_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD83EAD4F00F08F0A9B46718 /* Debug */,
+				622E52AC3A77D80B1E48DE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		528683A62E42369D00980F0E /* Build configuration list for PBXNativeTarget "arcHIVE_Camera_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528683A72E42369D00980F0E /* Debug */,
+				528683A82E42369D00980F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D46566CB7D85EE1FB3451956 /* Build configuration list for PBXNativeTarget "arcHIVE_Camera_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3FE34D7A930523527D53DA /* Debug */,
+				CDE4B42D63C9AD3399590C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F993A2BAADA47BE5E4E646C5 /* Project object */;
+}

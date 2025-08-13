@@ -1,0 +1,10 @@
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/aarch64-apple-ios/release/deps/thiserror-6abfd8fcf7a0d75f.d: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/aserror.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/display.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/var.rs
+
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/aarch64-apple-ios/release/deps/libthiserror-6abfd8fcf7a0d75f.rlib: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/aserror.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/display.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/var.rs
+
+/Users/midnight/Documents/Augustbuild/arcHIVE_Camera_App/ED25519_uniffi_custom/target/aarch64-apple-ios/release/deps/libthiserror-6abfd8fcf7a0d75f.rmeta: /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/aserror.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/display.rs /Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/var.rs
+
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/aserror.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/display.rs:
+/Users/midnight/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/var.rs:
